@@ -41,7 +41,7 @@ class Program
     }
     static void DisplayResult(string PromptUserName, int squareNumber)
     {
-        Console.Write($"{PromptUserName}, your favorite number squared is {squareNumber}");
+        Console.WriteLine($"{PromptUserName}, your favorite number squared is {squareNumber}");
     }
 
 }

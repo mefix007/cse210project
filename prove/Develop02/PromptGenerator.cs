@@ -9,11 +9,11 @@ public class PromptGenerator
     {
         _prompts = new List<string>
         {
-            "Who was the most interesting person I interacted with today?",
-            "What was the best part of my day?",
-            "How did I see the hand of the Lord in my life today?",
-            "What was the strongest emotion I felt today?",
-            "If I had one thing I could do over today, what would it be?"
+            "What is one thing you learn today?",
+            "Who made your day today awesome?",
+            "what experience of the Lord did you felt today?",
+            "What is one things you wish to improve on today?",
+            "If you have the means what would you have done better?"
         };
     }
 

@@ -52,11 +52,11 @@ class Program
         private int _lengthSeconds;
         private List<Comment> _comments;
 
-        public Video(string title, string author, int length)
+        public Video(string Title, string Author, int Length)
         {
-            _title = title;
-            _author = author;
-            _lengthSeconds = length;
+            _title = Title;
+            _author = Author;
+            _lengthSeconds = Length;
             _comments = new List<Comment>();
         }
         public string Title => _title;
@@ -80,10 +80,10 @@ class Program
         private string _commenterName;
         private string _text;
 
-        public Comment(string commenterName, string text)
+        public Comment(string CommenterName, string Text)
         {
-            _commenterName = commenterName;
-            _text = text;
+            _commenterName = CommenterName;
+            _text = Text;
         }
         public string CommenterName => _commenterName;
         public string Text => _text;

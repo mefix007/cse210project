@@ -23,7 +23,7 @@ public class MathAssignment : Assignment
     {
         return _problems;
     }
-    public void SstProblems(string problems)
+    public void SetProblems(string problems)
     {
         _problems = problems;
     }

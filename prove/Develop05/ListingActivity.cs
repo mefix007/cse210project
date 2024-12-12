@@ -8,10 +8,7 @@ public class ListingActivity : Activity
         "Who are some of your personal heroes?"
     };
 
-    public ListingActivity(int duration)
-        : base("Listing Activity",
-               "This activity helps you reflect on the good things in your life by listing them.",
-               duration)
+    public ListingActivity(int duration) : base("Listing Activity", "This activity helps you reflect on the good things in your life by listing them.", duration)
     {
     }
 

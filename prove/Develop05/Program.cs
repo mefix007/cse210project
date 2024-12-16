@@ -5,7 +5,7 @@ class Program
         while (true)
         {
             Console.Clear();
-            Console.WriteLine("Welcome to the Mindfulness Activities Program!");
+            Console.WriteLine("Welcome to the Mindfulness Activities");
             Console.WriteLine("\nChoose an activity:");
             Console.WriteLine("1. Breathing Activity");
             Console.WriteLine("2. Reflection Activity");
@@ -23,13 +23,11 @@ class Program
                 "4" => null,
                 _ => null
             };
-
             if (activity == null)
             {
                 Console.WriteLine("Goodbye!");
                 break;
             }
-
             activity.Start();
         }
     }

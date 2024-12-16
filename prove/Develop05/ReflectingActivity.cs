@@ -5,13 +5,11 @@ public class ReflectingActivity : Activity
         "Think of a time when you stood up for someone else.",
         "Think of a time when you did something really difficult.",
         "Think of a time when you helped someone in need.",
-        "Think of a time when you did something truly selfless."
+        "Think of a time when you did something truly selfless.",
     };
-
     public ReflectingActivity(int duration) : base("Reflecting Activity", "This activity helps you reflect on moments of strength and resilience.", duration)
     {
     }
-
     public override void Run()
     {
         Random random = new Random();

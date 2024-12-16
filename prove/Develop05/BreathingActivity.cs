@@ -3,7 +3,6 @@ public class BreathingActivity : Activity
     public BreathingActivity(int duration) : base("Breathing Activity", "This activity helps you relax by guiding your breathing.", duration)
     {
     }
-
     public override void Run()
     {
         int elapsed = 0;

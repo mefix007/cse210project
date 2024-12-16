@@ -8,7 +8,7 @@ public class WritingAssignment : Assignment
         _topic = topic;
         _title = title;
     }
-    public string GetTitle()
+    public string GetTilte()
     {
         return _title;
     }

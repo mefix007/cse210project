@@ -1,0 +1,4 @@
+190
+SimpleGoal|talks|to give talks in church|50|True
+EternalGoal|prayer|pray daily|20
+CheclistGoal|check up|to do a medical check up|20|1|1|100
